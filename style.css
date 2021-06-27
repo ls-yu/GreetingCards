@@ -1,0 +1,95 @@
+body{
+    background-color: pink;
+}
+
+.small-rec {
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-75px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 50%;
+    background-color: black;
+    width: 38px;
+    height: 38px;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    
+}
+button[disabled]:active, button[disabled],
+input[type="button"][disabled]:active,
+input[type="button"][disabled],
+input[type="submit"][disabled]:active,
+input[type="submit"][disabled] ,
+button[disabled]:hover,
+input[type="button"][disabled]:hover,
+input[type="submit"][disabled]:hover
+{
+  cursor: inherit;
+  background-color: #ddd;
+  background: #ddd;
+}
+
+.button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.inside {
+    padding-top: 60px;
+}
+
+.recipient {
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+.recipient:focus {
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+.rec{
+    display: none;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-150px;
+    margin-top:-200px;
+    box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.4);
+}
+
+.words{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    line-height: 30px;
+    animation: animated-text 4s linear 1s 1 normal both;
+}
+
+.images{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#previous-button{
+    left: 10px;
+}

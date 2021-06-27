@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="small-rec" id="small-rec">
+            <div class="inside">
+                <span class="to">TO:</span>
+                <input class="recipient" id="recipient" />
+            </div>
+            <div class="button" onclick="showCard()">&gt;</div>
+        </div>
+        <div class="rec" id="rec">
+            <div class="words" id="words">my condolences for attending MIT.</div>
+            <div card="card">
+                <img src="cards/EllaMIT.png" id="image" class="images">
+            </div>
+        </div>
+        <div>
+            <button class="button" id="previous-button" onclick="previousCard()">&lt;</button>
+            <button class="button" id="next-button" onclick="nextCard()">&gt;</button>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>
